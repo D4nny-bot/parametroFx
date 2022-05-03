@@ -13,6 +13,6 @@
       <Label layoutX="53.0" layoutY="295.0" text="Boton para enviar texto a stage2 y cerrar" />
       <TextField fx:id="txtAreaRecibir" layoutX="384.0" layoutY="85.0" />
       <TextField fx:id="txtAreaDevolver" layoutX="384.0" layoutY="196.0" />
-      <Button layoutX="412.0" layoutY="299.0" mnemonicParsing="false" onAction="#btnCerrarEnviar" text="Cerrar y enviar" />
+      <Button fx:id="btnCerrar" layoutX="412.0" layoutY="299.0" mnemonicParsing="false" onAction="#btnCerrarEnviar" text="Cerrar y enviar" />
    </children>
 </AnchorPane>
